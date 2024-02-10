@@ -18,8 +18,8 @@ type User struct {
 	Name    string `gorm:"size:255"`
     Email string `gorm:"type:varchar(100); uniqueIndex"`
 	Age int `gorm:"default:19"`
-	Profile Profile
-	Orders []Order
+	Profile Profile //"Has One"
+	Orders []Order  //"Has Many"
 }
 type Profile struct {
 	gorm.Model 
@@ -30,6 +30,7 @@ type Order struct {
 	gorm.Model
 	UserID uint
 	Item string 
+	User User
 }
 
 func main() {
@@ -50,6 +51,11 @@ func main() {
 	if err!=nil {
 		log.Fatal("failed to create:", err)
 	} 
+	order,err:=NewOrder("kitap1",*newUser,db)
+	if err != nil {
+		// Обработка ошибки
+	}
+	fmt.Print(order)
 	fmt.Print("Created user with ID:", newUser.Name)
 	
 	allUsers :=GetAllUsers(db)
@@ -165,6 +171,27 @@ func rollbackTransaction(tx *gorm.DB) {
 	if r:=recover(); r!=nil {
 		tx.Rollback()
 	}
+}
+func NewOrder (item string, user User, db*gorm.DB)(*Order,error){
+  tx:=db.Begin()
+  defer rollbackTransaction(tx)
+  if tx.Error!=nil {
+     return nil, tx.Error
+  }
+  orders:=&Order{
+	Item:item,
+	User: user,
+  }
+  if orders.Item=="panic" {
+	panic("something went wrong")
+  }
+  if err:=tx.Create(orders).Error; err!=nil {
+	return nil, err
+ }
+ if err:=tx.Commit().Error; err!=nil {
+	return nil, err
+ }
+ return orders, nil
 }
 
 
