@@ -32,6 +32,11 @@ type Order struct {
 	Item string 
 	User User
 }
+type Product struct {
+	gorm.Model
+	Code string
+	Price uint
+}
 
 func main() {
 	
@@ -46,6 +51,9 @@ func main() {
 	//db.AutoMigrate(&CreditCard{})
 	db.AutoMigrate(&Profile{})
 	db.AutoMigrate(&Order{})
+	db.AutoMigrate(&Product{})
+	
+	
 	var orders = []Order{{Item: "Item 1"}, {Item: "Item 2"}}
 	newUser,err:=NewUser("Keulen","aru@gmail.com", 20,"sdu",orders, db)
 	if err!=nil {
@@ -81,7 +89,13 @@ func main() {
 		log.Fatal("error on delete", err)
 	}
 	fmt.Print("deleted user", deletedUser)
+	users, err := GetUsersPage(db, 1, 10) // Получить первую страницу пользователей с 10 пользователями на странице
+if err != nil {
+    log.Fatal(err)
+} 
+fmt.Println(users)
 }
+
 func NewUser(name, email string, age int,bio string,orders []Order, db*gorm.DB) (*User, error) {
 	tx := db.Begin()
 	defer rollbackTransaction(tx)
@@ -193,6 +207,14 @@ func NewOrder (item string, user User, db*gorm.DB)(*Order,error){
  }
  return orders, nil
 }
-
+func GetUsersPage(db *gorm.DB, page, pageSize int) ([]User, error) {
+    var users []User
+    offset := (page - 1) * pageSize
+    result := db.Offset(offset).Limit(pageSize).Find(&users)
+    if result.Error != nil {
+        return nil, result.Error
+    }
+    return users, nil
+}
 
 
