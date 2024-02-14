@@ -49,10 +49,7 @@ func main() {
     defer sqlDB.Close()
 	//db.AutoMigrate(&User{})
 	//db.AutoMigrate(&CreditCard{})
-	db.AutoMigrate(&Profile{})
-	db.AutoMigrate(&Order{})
-	db.AutoMigrate(&Product{})
-	
+	db.AutoMigrate(&Profile{}, &Order{}, &Product{})
 	
 	var orders = []Order{{Item: "Item 1"}, {Item: "Item 2"}}
 	newUser,err:=NewUser("Keulen","aru@gmail.com", 20,"sdu",orders, db)
