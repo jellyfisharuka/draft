@@ -37,6 +37,10 @@ type Product struct {
 	Code string
 	Price uint
 }
+type Group struct {
+	Users User `gorm:"foreignKey:id"`
+	TypeGroup string 
+}
 
 func main() {
 	
@@ -58,6 +62,7 @@ func main() {
 	} 
 	order,err:=NewOrder("kitap1",*newUser,db)
 	if err != nil {
+		log.Fatal("failed to connect")
 		// Обработка ошибки
 	}
 	fmt.Print(order)
