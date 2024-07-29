@@ -1,39 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5">
   <diagram name="Страница — 1" id="t8PgcB-Bj81JIGUaZiW2">
-    <mxGraphModel dx="5250" dy="2610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="3500" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-1" value="gr_audio_player" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="110" width="140" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-2" value="audio_content_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xByyXgjnT6tnBIrzNjOe-1" vertex="1">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-3" value="audio_title" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xByyXgjnT6tnBIrzNjOe-1" vertex="1">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-4" value="audio_description" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xByyXgjnT6tnBIrzNjOe-1" vertex="1">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-5" value="audio_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xByyXgjnT6tnBIrzNjOe-1" vertex="1">
-          <mxGeometry y="120" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-6" value="radio_stream_url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xByyXgjnT6tnBIrzNjOe-1" vertex="1">
-          <mxGeometry y="150" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-7" value="now_playing_info_url" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xByyXgjnT6tnBIrzNjOe-1" vertex="1">
-          <mxGeometry y="180" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-8" value="streaming_server" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xByyXgjnT6tnBIrzNjOe-1" vertex="1">
-          <mxGeometry y="210" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-9" value="disabled" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xByyXgjnT6tnBIrzNjOe-1" vertex="1">
-          <mxGeometry y="240" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xByyXgjnT6tnBIrzNjOe-10" value="updated_on" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xByyXgjnT6tnBIrzNjOe-1" vertex="1">
-          <mxGeometry y="270" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="xByyXgjnT6tnBIrzNjOe-23" value="gr_badges" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="70" width="130" height="145" as="geometry" />
         </mxCell>
@@ -189,6 +159,102 @@
         </mxCell>
         <mxCell id="aM84LzSGUawsXzDRVU1t-96" value="`setting_id` &#xa;  `setting` &#xa;  `options` &#xa;  `value` &#xa;  `required` &#xa;  `category` &#xa;  `field_attributes`&#xa;  `settings_order` &#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-97">
           <mxGeometry x="5" y="30" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-100" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_site_notifications`&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1480" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-105" value="`notification_id` &#xa;  `user_id` &#xa;  `notification_type` &#xa;  `related_group_id` &#xa;  `related_user_id`&#xa;  `related_message_id`&#xa;  `related_parameters` &#xa;  `read_status`&#xa;  `created_on` &#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-100">
+          <mxGeometry y="25" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-102" value="&lt;div style=&quot;text-align: left;&quot;&gt;gr_site_advertisements&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1490" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-104" value="`site_advert_id` &#xa;  `site_advert_name`&#xa;  `site_advert_content`&#xa;  `site_advert_placement` &#xa;  `site_advert_min_height` &#xa;  `site_advert_max_height` &#xa;  `disabled` &#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-102">
+          <mxGeometry x="10" y="30" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-107" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_site_roles`&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1770" width="170" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-106" value="`site_role_id` &#xa;  `string_constant` &#xa;  `permissions` &#xa;  `site_role_attribute` &#xa;  `role_hierarchy`&#xa;  `disabled`&#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-107">
+          <mxGeometry x="10" y="25" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-110" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_site_users`&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1800" width="200" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-109" value="`user_id`&#xa;  `display_name` &#xa;  `username` &#xa;  `email_address` &#xa;  `unverified_email_address` &#xa;  `phone_number` &#xa;  `phone_verified` &#xa;  `verification_code` &#xa;  `one_time_pin` &#xa;  `otp_generated_on` &#xa;  `password` &#xa;  `encrypt_type`&#xa;  `salt` &#xa;  `site_role_id` &#xa;  `previous_site_role_id` &#xa;  `profile_picture`&#xa;  `profile_bg_image`&#xa;  `profile_cover_pic` &#xa;  `online_status` &#xa;  `stay_online` &#xa;  `approved` &#xa;  `geo_latitude` &#xa;  `geo_longitude` &#xa;  `total_friends` &#xa;  `social_login_provider_id` &#xa;  `access_token` &#xa;  `token_generated_on`&#xa;  `created_on` &#xa;  `updated_on` &#xa;  `last_seen_on`&#xa;  `last_login_session`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-110">
+          <mxGeometry x="10" y="30" width="190" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_site_users_blacklist`&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="1970" width="170" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-112" value="`user_blacklist_id` &#xa;  `user_id` &#xa;  `blacklisted_user_id` &#xa;  `ignore` &#xa;  `block` &#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-113">
+          <mxGeometry x="10" y="35" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-116" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_site_users_device_logs`&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2150" width="170" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-115" value="`access_log_id` &#xa;  `login_session_id` &#xa;  `user_id` &#xa;  `ip_address`&#xa;  `user_agent`&#xa;  `created_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-116">
+          <mxGeometry x="10" y="30" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-119" value="&lt;div style=&quot;text-align: left;&quot;&gt;gr_site_users_membership&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1960" width="190" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-118" value="`membership_info_id` &#xa;  `user_id`&#xa;  `membership_package_id` &#xa;  `started_on` &#xa;  `expiring_on` &#xa;  `non_expiring` &#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-119">
+          <mxGeometry y="22.5" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-121" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_site_users_settings`&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2030" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-122" value=" `user_setting_id` &#xa;  `user_id`&#xa;  `offline_mode` &#xa;  `time_zone` &#xa;  `language_id` &#xa;  `notification_tone` &#xa;  `disable_private_messages` &#xa;  `deactivated` &#xa;  `color_scheme` &#xa;  `updated_on` " style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-121">
+          <mxGeometry y="22.5" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-124" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_social_login_providers`&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2160" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-123" value="`social_login_provider_id`&#xa;  `identity_provider` &#xa;  `app_id` &#xa;  `app_key` &#xa;  `secret_key` &#xa;  `open_in_popup` &#xa;  `create_user` &#xa;  `disabled` &#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-124">
+          <mxGeometry x="10" y="30" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-127" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_typing_status`&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2080" width="185" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-126" value="`user_input_log_id` &#xa;  `group_id` &#xa;  `private_conversation_id` &#xa;  `user_id` &#xa;  `created_on` &#xa;  `updated_on`" style="text;whiteSpace=wrap;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-127">
+          <mxGeometry x="5" y="22.5" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-129" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;`gr_audio_player`&lt;/span&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="170" y="130" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-130" value=" `audio_content_id` &#xa;  `audio_title`&#xa;  `audio_description` &#xa;  `audio_type` &#xa;  `radio_stream_url` &#xa;  `now_playing_info_url` &#xa;  `streaming_server`&#xa;  `disabled` &#xa;  `updated_on` " style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-129">
+          <mxGeometry y="30" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-132" value="gr_css_variables`&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1100" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-131" value="`css_variable_id` &#xa;  `css_variable` &#xa;  `css_variable_value`&#xa;  `color_scheme` &#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-132">
+          <mxGeometry y="22.5" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-136" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_custom_fields`&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1280" width="190" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-135" value="`field_id`&#xa;  `string_constant` &#xa;  `field_category` &#xa;  `field_type` &#xa;  `show_on_signup` &#xa;  `show_on_guest_login` &#xa;  `required` &#xa;  `minimum_length` &#xa;  `maximum_length`&#xa;  `show_on_info_page` &#xa;  `editable_only_once` &#xa;  `searchable_field`&#xa;  `disabled` &#xa;  `order_by` &#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-136">
+          <mxGeometry x="10" y="30" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-139" value="`gr_custom_fields_values`" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1230" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-138" value="`field_value_id`&#xa;  `field_id` &#xa;  `group_id`&#xa;  `user_id`&#xa;  `field_value` &#xa;  `updated_on`" style="text;whiteSpace=wrap;fontSize=13;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-139">
+          <mxGeometry x="10" y="30" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-142" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_custom_menu_items`&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1140" width="225" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-141" value="`menu_item_id` &#xa;  `string_constant` &#xa;  `menu_icon_class`&#xa;  `page_id` &#xa;  `web_address` &#xa;  `link_target` &#xa;  `show_on_landing_page_header` &#xa;  `show_on_landing_page_footer` &#xa;  `show_on_entry_page` &#xa;  `show_on_chat_page` &#xa;  `show_on_chat_page_top` &#xa;  `menu_item_order` &#xa;  `menu_item_visibility` &#xa;  `disabled` &#xa;  `created_on`&#xa;  `updated_on`" style="text;whiteSpace=wrap;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-142">
+          <mxGeometry x="5" y="30" width="220" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-145" value="&lt;div style=&quot;text-align: left;&quot;&gt;`gr_custom_pages`&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1170" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aM84LzSGUawsXzDRVU1t-144" value="`page_id`&#xa;  `string_constant`&#xa;  `slug` &#xa;  `meta_title` &#xa;  `meta_description`&#xa;  `disabled` &#xa;  `who_all_can_view_page` &#xa;  `created_on` &#xa;  `updated_on`" style="text;whiteSpace=wrap;" vertex="1" parent="aM84LzSGUawsXzDRVU1t-145">
+          <mxGeometry y="35" width="180" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
